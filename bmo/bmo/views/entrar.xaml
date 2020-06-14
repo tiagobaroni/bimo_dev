@@ -28,11 +28,13 @@
 
 
             <Entry Placeholder="Digite sua senha" 
-                   PlaceholderColor="#E77817"/>
+                   PlaceholderColor="#E77817"
+                   IsPassword="True"/>
 
             <ImageButton Source="entrar" 
                          HorizontalOptions="FillAndExpand"
                          VerticalOptions="FillAndExpand"
+                         BackgroundColor="#FFFFFF"
                          Clicked="GoSelecaoModo"/>
             </StackLayout>
 

@@ -25,6 +25,7 @@
             <ImageButton Source="entrar" 
                          HorizontalOptions="FillAndExpand"
                          VerticalOptions="FillAndExpand"
+                         BackgroundColor="#FFFFFF"
                          Clicked="GoEntrar"/>
         </StackLayout>
 
