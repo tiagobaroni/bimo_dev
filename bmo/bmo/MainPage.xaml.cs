@@ -17,5 +17,10 @@ namespace bmo
         {
             InitializeComponent();
         }
+
+        private void GoEntrar(object sender, EventArgs args)
+        {
+            Navigation.PushAsync(new views.entrar());
+        }
     }
 }
