@@ -20,6 +20,11 @@ namespace bmo.views
         private void GoSelecaoModo(object sender, EventArgs args)
         {
             Navigation.PushAsync(new views.selecaModo());
+            var page = new views.selecaModo();
+
+            Navigation.PushAsync(page);
+            //NavigationPage.SetHasNavigationBar(page, false);
+
         }
     }
 }

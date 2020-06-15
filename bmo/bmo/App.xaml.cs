@@ -9,7 +9,12 @@ namespace bmo
         public App()
         {
             InitializeComponent();
+<<<<<<< Updated upstream
 
+=======
+            //root page
+            //MainPage = new MainPage();
+>>>>>>> Stashed changes
             MainPage = new NavigationPage(new MainPage());
         }
 
