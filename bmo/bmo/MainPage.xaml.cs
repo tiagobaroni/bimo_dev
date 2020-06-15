@@ -21,6 +21,12 @@ namespace bmo
         private void GoEntrar(object sender, EventArgs args)
         {
             Navigation.PushAsync(new views.entrar());
+            var page = new views.entrar();
+
+            Navigation.PushAsync(page);
+            //NavigationPage.SetHasNavigationBar(page, false);
+
+
         }
     }
 }
